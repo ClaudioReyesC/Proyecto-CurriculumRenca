@@ -1,0 +1,84 @@
+.Desarrollo {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .encabezado input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .encabezado button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .encabezado button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabla {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla th,
+  .tabla td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabla th {
+    background-color: #f2f2f2;
+  }
+  
+  .usuario {
+    display: flex;
+    align-items: center;
+  }
+  
+  .usuario img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .botones button {
+    margin-right: 5px;
+    padding: 5px 10px;
+  
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .botones button:hover {
+    background-color: #0056b3;
+  }
+  
+  .paginacion {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para la imagen predeterminada */
+  .usuario img[src='/noavatar.png'] {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc; /* Cambia el color de fondo si la imagen no se carga */
+  }
+  

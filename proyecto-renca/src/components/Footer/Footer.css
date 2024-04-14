@@ -1,0 +1,33 @@
+.footer {
+  /* background-color: #f8f9fa; */
+  padding: 20px 0;
+}
+
+.logo {
+  width: 100px; /* ajusta el ancho según sea necesario */
+  height: auto; /* para mantener la proporción */
+}
+
+.footer-quote {
+  font-style: italic;
+}
+
+#iconos {
+  margin-top: 10px;
+}
+
+#iconos a {
+  margin-right: 10px;
+  color: #000; /* color de los iconos */
+}
+
+/* Estilos para la frase del pie de página */
+.fs-5 {
+  font-size: 1.25rem;
+  color: #000; /* color del texto */
+}
+
+/* Ajusta los estilos de los íconos de redes sociales */
+#iconos i {
+  font-size: 1.5rem;
+}

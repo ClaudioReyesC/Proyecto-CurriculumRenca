@@ -1,0 +1,110 @@
+
+  
+  .wrapper {
+    display: flex;
+  }
+  
+  /* Estilos de la barra lateral */
+  #sidebar {
+    width: 250px;
+    background-color: #fda22d;
+    color: black;
+    height: 100vh;
+  }
+  
+  .sidebar-logo {
+    padding: 20px 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #555;
+  }
+  
+  .sidebar-logo a {
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+  }
+  
+  .sidebar-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sidebar-link:hover {
+    background-color:  #0ab5fd;
+    opacity: .8;
+  }
+  
+  /* Estilos del contenido principal */
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    margin-right: 20px;
+  }
+  
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .user-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+  }
+  
+  /* Estilos para el botón de la barra lateral */
+  .toggle-btn {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .toggle-btn img {
+    width: 100%;
+  }
+  
+  /* Estilos para el footer de la barra lateral */
+  .sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #555;
+  }
+  
+  /* Estilos para el enlace del footer */
+  .sidebar-footer a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .sidebar-footer a:hover {
+    background-color: #555;
+  }
+  
+
+.btn-edit-profile {
+    background-color: #fda22d;
+}
